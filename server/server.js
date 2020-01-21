@@ -75,6 +75,7 @@ app.listen({ port: port }, () => {
 // Helper function to populate DB
 const createMessages = async () => {
     console.log("Creating messages...");
+    // Source: https://joshmadison.com/2008/04/20/fortune-cookie-fortunes/
     let messages = ["A beautiful, smart, and loving person will be coming into your life.",
                     "Emulate what you admire in your parents.",
                     "Go take a rest; you deserve it.",
