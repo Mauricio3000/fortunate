@@ -75,10 +75,18 @@ app.listen({ port: port }, () => {
 // Helper function to populate DB
 const createMessages = async () => {
     console.log("Creating messages...");
-    let messages = ["Message 1",
-                    "Message 2",
-                    "Message 3",
-                    "Message 4"];
+    let messages = ["A beautiful, smart, and loving person will be coming into your life.",
+                    "Emulate what you admire in your parents.",
+                    "Go take a rest; you deserve it.",
+                    "Now is the time to try something new.",
+                    "Physical activity will dramatically improve your outlook today.",
+                    "Put your mind into planning today. Look into the future.",
+                    "Resting well is as important as working hard.",
+                    "Staying close to home is going to be best for your morale today",
+                    "Success is going from failure to failure without loss of enthusiasm.",
+                    "The harder you work, the luckier you get.",
+                    "Your love life will be happy and harmonious.",
+                    "It takes courage to admit fault."];
 
     let temp;
     let msg;
