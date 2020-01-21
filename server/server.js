@@ -104,7 +104,7 @@ const get_random = async () => {
     let count;
     await Promise.all([count = Fortune.countDocuments()]);
     count = (await count).valueOf()
-    console.log("Fortune count: " + count);
+    // console.log("Fortune count: " + count);
 
     const rand = Math.floor(Math.random() * count);
     let f = (await Fortune.findOne().skip(rand)).toObject();
